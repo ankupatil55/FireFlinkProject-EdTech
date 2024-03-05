@@ -87,6 +87,20 @@
       "lastName": "Arora",
       "email": "chirag@gmail.com",
       "password": "qwertyuiop"
+    },
+    {
+      "id": "9a92",
+      "firstName": "Ankita",
+      "lastName": "Patil",
+      "email": "ankita.ap@fireflink.com",
+      "password": "ankita@123"
+    },
+    {
+      "id": "ef65",
+      "firstName": "ramya",
+      "lastName": "Patil",
+      "email": "ramya@gmail.com",
+      "password": "ramya123"
     }
   ]
 }

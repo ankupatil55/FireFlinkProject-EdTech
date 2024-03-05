@@ -31,6 +31,7 @@ const CoursePurchase = ({ datas }: DataVideo) => {
             <h6>{datas.description}</h6>
           </div>
       </div>
+      <div className="mainParent-container">
       <div className="parent_container">
       {datas.micro_videos.map((data, index) => {
         return (
@@ -78,6 +79,7 @@ const CoursePurchase = ({ datas }: DataVideo) => {
         );
       })}
       </div>
+    </div>
     </div>
   );
 };

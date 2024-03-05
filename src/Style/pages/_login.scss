@@ -105,21 +105,24 @@ $border-color: #ccc;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
   .parentlogin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     height: auto;
     width: auto;
   }
 
-  .image-container,
-  .login-container {
-    width: 100%;
+  .image-container {
+
   }
 
   .image-container {
     border-right: none;
     height: 30vh;
+    width: 100%;
   }
 }
 

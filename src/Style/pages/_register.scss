@@ -130,3 +130,18 @@ $desktop: 1200px;
     }
   }
 }
+@media screen and (max-width: 360px) {
+  .registration-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  .image-container {
+    border-right: none;
+    height: 30vh;
+    width: 100%;
+  }
+}
